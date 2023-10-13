@@ -6,6 +6,10 @@ body {
   color: rgb(0, 0, 0);
   max-width: 744px;
   margin: 0 auto;
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  background-position: top;
+  overflow-x: hidden;
 }
 
 .header {
@@ -101,14 +105,6 @@ body {
 .footer_img {
   margin-top: 45px;
   width: 100%;
-}
-
-.bg_wrapper {
-  background-image: url("./img/bg.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  overflow-x: hidden;
-  height: 100vh;
 }
 
 @media (max-width: 571px) {
